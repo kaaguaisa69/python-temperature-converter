@@ -78,7 +78,7 @@ python-temperature-converter/
 ├── requirements.txt      # List of dependencies (Flask)
 └── README.md             # Project documentation
 ```
-##Docker Setup
+## Docker Setup
 This project can be containerized using Docker for easier deployment. Below are the steps to build and run the Docker container:
 
 1. **Build the Docker Image**
@@ -95,7 +95,7 @@ docker run -p 8080:5000 python-temperature-converter
 ```
 The app will be accessible at http://localhost:8080/ in your browser.
 
-## Deployment on Railway
+### Deployment on Railway
 This project can be deployed using Railway. You can deploy the app by connecting this repository to Railway and configuring the environment.
 
 **Steps to deploy:**
